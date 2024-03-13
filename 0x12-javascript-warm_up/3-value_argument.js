@@ -1,14 +1,14 @@
 #!/usr/bin/node
 const argv = require('process').argv;
-let myvar = 0;
+let a = 0;
 
 argv.forEach((value) => {
-  if (myvar === 2) {
+  if (a === 2) {
     console.log(value);
   }
-  myvar++;
+  a++;
 });
 
-if (myvar === 2) {
+if (a === 2) {
   console.log('No argument');
 }
